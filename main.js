@@ -18,7 +18,7 @@ themeBtn.addEventListener("click", themeChange);
 searchBtn.addEventListener("click", findMovie);
 
 function themeChange() {
-    body.classList.tiggle("dark")
+  body.classList.toggle("dark")
 }
 
 async function findMovie() {
@@ -59,7 +59,8 @@ function showMovies(data) {
                     <div class="desc">
                     <p>${elem}</p>
                     <p>${data[elem]}</p>
-                    </div> `;
+                    </div> 
+                    `;
   });
 }
 
